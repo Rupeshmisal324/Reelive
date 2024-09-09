@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56963928188",
+    "project_id": "reelive-6f9ae",
+    "storage_bucket": "reelive-6f9ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56963928188:android:68544f0c9cbe2597f379f9",
+        "android_client_info": {
+          "package_name": "com.reelive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PfLlFydPmTYCFMpxVgteboTPO6t5KAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
