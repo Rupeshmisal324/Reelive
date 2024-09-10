@@ -5,14 +5,16 @@ buildscript {
         compileSdkVersion = 34
         targetSdkVersion = 34
         ndkVersion = "26.1.10909125"
-        kotlinVersion = "1.9.22"
+        kotlinVersion = "1.9.22" // Ensure this is consistent throughout the file
     }
-   
+
     repositories {
         google()
         mavenCentral()
     }
+
     dependencies {
+<<<<<<< HEAD
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
@@ -21,14 +23,31 @@ buildscript {
          
         
 
+=======
+        classpath("com.android.tools.build:gradle:8.0.2") // Ensure this version is compatible with your Gradle version
+        classpath("com.facebook.react:react-native-gradle-plugin") // Ensure this is the correct version for your React Native version
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22") // Keep Kotlin plugin version consistent
+        classpath("com.google.gms:google-services:4.3.15") // Check compatibility with Google Play services
+>>>>>>> 1629ff9cace681bea1e02842aaedcf10c57f04b9
     }
-    
-    ext {
-    kotlinVersion = "1.9.0" // Ensure this is compatible with your React Native version
-}
-
-    
 }
 
 apply plugin: "com.facebook.react.rootproject"
 apply plugin: 'com.google.gms.google-services'
+<<<<<<< HEAD
+=======
+apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11 // Ensure Java version compatibility
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+>>>>>>> 1629ff9cace681bea1e02842aaedcf10c57f04b9
