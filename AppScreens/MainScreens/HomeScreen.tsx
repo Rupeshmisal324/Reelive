@@ -39,7 +39,7 @@ const HomeScreen = () => {
   return (
     <PaperProvider>
       <SafeAreaView style={styles.container}>
-        {/* Header */}
+      
         <View style={styles.header}>
           <TouchableOpacity
             style={styles.iconButton}

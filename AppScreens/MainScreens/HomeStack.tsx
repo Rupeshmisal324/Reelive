@@ -28,15 +28,15 @@ const HomeStack = () => {
 
   return (
     <View style={{flex: 1, backgroundColor: '#191C26'}}>
-      <HomeStackNavigator.Navigator initialRouteName="Home">
-        <HomeStackNavigator.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{headerShown: false}}
-        />
+      <HomeStackNavigator.Navigator initialRouteName="HomeLive">
         <HomeStackNavigator.Screen
           name="HomeLive"
           component={HomeLive}
+          options={{headerShown: false}}
+        />
+        <HomeStackNavigator.Screen
+          name="Home"
+          component={HomeScreen}
           options={{headerShown: false}}
         />
         <HomeStackNavigator.Screen
