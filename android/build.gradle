@@ -15,17 +15,11 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
-<<<<<<< HEAD
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
         classpath 'com.android.tools.build:gradle:8.0.2'
          classpath 'com.google.gms:google-services:4.4.2'
          
         
-=======
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22' // Update Kotlin plugin
-         classpath 'com.android.tools.build:gradle:8.0.2' // Adjust this version as needed
-        classpath 'com.google.gms:google-services:4.3.15' // Make sure this is compatible
->>>>>>> e8105fdd0c0dcaac36ed4359e32a6b971753460a
 
     }
     
@@ -38,13 +32,3 @@ buildscript {
 
 apply plugin: "com.facebook.react.rootproject"
 apply plugin: 'com.google.gms.google-services'
-apply plugin: 'com.android.application' 
-apply plugin: 'com.android.library'
-
-<<<<<<< HEAD
-=======
- java {
-   sourceCompatibility = JavaVersion.VERSION_11
-  targetCompatibility = JavaVersion.VERSION_11
- }
->>>>>>> e8105fdd0c0dcaac36ed4359e32a6b971753460a
