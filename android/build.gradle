@@ -16,7 +16,7 @@ buildscript {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22' // Update Kotlin plugin
-         classpath 'com.android.tools.build:gradle:8.0.2' // Adjust this version as needed
+         classpath 'com.android.tools.build:gradle:8.5.0' // Adjust this version as needed
         classpath 'com.google.gms:google-services:4.3.15' // Make sure this is compatible
 
     }
