@@ -30,6 +30,8 @@ buildscript {
 
 apply plugin: "com.facebook.react.rootproject"
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application' 
+apply plugin: 'com.android.library'
 
  java {
    sourceCompatibility = JavaVersion.VERSION_11
