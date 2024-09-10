@@ -125,4 +125,8 @@ apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e8105fdd0c0dcaac36ed4359e32a6b971753460a
